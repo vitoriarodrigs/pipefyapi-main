@@ -40,7 +40,7 @@ def _build_fields(pessoa: PessoaCreate):
         {"field_id": "cidade", "field_value": [pessoa.cidade_id]}
     ]
     
-    # Adiciona campos opcionais se preenchidos
+    
     if pessoa.data_de_nascimento:
         fields.append({
             "field_id": "data_de_nascimento",
